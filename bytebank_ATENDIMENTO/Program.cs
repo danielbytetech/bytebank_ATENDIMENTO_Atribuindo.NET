@@ -26,8 +26,11 @@ foreach (var chave in listaDeChaves)
     Console.WriteLine(chave);
 }
 
-
-
-
-
-
+/*Para Saber mais sobre o NuGet
+ Introdução -> https://learn.microsoft.com/pt-br/nuget/what-is-nuget
+ Visão Geral -> https://learn.microsoft.com/pt-br/nuget/nuget-org/overview-nuget-org
+ Site oficial para consulta e publicações de pacotes NuGet -> https://www.nuget.org/
+ */
+// Para Criar um pacote Nuget.org vai nas propriedades do projeto e vai em pacotes, habilita a opção "Gerar Pacote NuGet no build"
+// e você pode definir tambem mais um conjunto de informações como: Id do Pacote, Versão, Autores, Empresa, Produto e Descrição.
+// Logo após verifique se foi clicando duas vezes no projeto
